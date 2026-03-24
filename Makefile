@@ -12,8 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-EMOJI = NotoColorEmoji
-EMOJI_WINDOWS = NotoColorEmoji_WindowsCompatible
+EMOJI = FoxColorEmoji
+EMOJI_WINDOWS = FoxColorEmoji_WindowsCompatible
 all: $(EMOJI).ttf $(EMOJI_WINDOWS).ttf
 
 CFLAGS = -std=c99 -Wall -Wextra `pkg-config --cflags --libs cairo`
