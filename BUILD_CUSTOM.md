@@ -4,6 +4,16 @@
 
 Execute the “make” command.
 
+```
+make clean
+make EMOJI_SRC_DIR=2D/png/128 BYPASS_SEQUENCE_CHECK='True'
+```
+
+```
+make clean
+make EMOJI_SRC_DIR=3D/png/128 BYPASS_SEQUENCE_CHECK='True'
+```
+
 # Blob Version
 
 ## Custom Build Instructions
@@ -23,6 +33,10 @@ Modify the “Makefile” to look like this branch. (comment out lines 191 and 1
 ### Final Build
 
 Build again with the “make” command.
+
+```
+make BYPASS_SEQUENCE_CHECK='True'
+```
 
 Ended.
 Good job.
@@ -47,6 +61,10 @@ Modify the “Makefile” to look like this branch. (comment out lines 191 and 1
 ### Final Build
 
 Build again with the “make” command.
+
+```
+make BYPASS_SEQUENCE_CHECK='True'
+```
 
 Ended.
 Good job.
